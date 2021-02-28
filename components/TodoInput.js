@@ -18,7 +18,6 @@ export default function TodoInput() {
       id: Math.ceil(Math.random() * 100)
     },
   })
-  console.log("salom")
   return (
     <View>
       <TextInput type="text" value={newTodo} onChangeText={handleInputChange} />
