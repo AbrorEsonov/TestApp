@@ -10,7 +10,7 @@ export default function TodoInput() {
   const handleInputChange = (e) => {
     setNewTodo(e.target.value);
   };
-
+ 
   const handleInputClick = () =>(
     dispatch(addTodo(newTodo))
     );
