@@ -8,11 +8,13 @@ export default function TodoInput() {
   const dispatch = useDispatch();
 
   const handleInputChange = (e) => {
-    setNewTodo(e.target.value);
+    console.log('uuuu',e)
+    setNewTodo(e);
   };
  
   const handleInputClick = () =>(
-    dispatch(addTodo(newTodo))
+    dispatch(addTodo(newTodo)),
+    setNewTodo('')
     );
     
   return (
