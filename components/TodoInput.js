@@ -23,6 +23,7 @@ export default function TodoInput() {
         style={{
           borderWidth: 2,
           marginTop: 20,
+          marginLeft: 60,
           width: '60%',
           alignItems: 'center',
         }}
